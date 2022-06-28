@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+  }
+  
+  .header_link {
+    text-align: center;
+  }
+  
+  .header_link a {
+    font-size: 30px;
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    font-weight: 600; 
+  }
+  
+  main {
+    max-width: 1440px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 150px;
+  }
+  
+  @media (max-width: 700px) {
+    main {
+      flex-direction: column;
+      width: 90%;
+    }
+  }
+  
+  /* Left box styling */
+  .left_box {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .left_box {
+      margin-bottom: 15px;
+      border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+  
+  }
+  
+  .left_box h2 {
+    color: hsl(0, 0%, 95%);
+    margin-top: 15px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+  }
+  .left_box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+    padding-bottom: 100px;
+    line-height: 20px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .left_box p{
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  
+  }
+  
+  .left_box .left_button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+  }
+  .left_box .left_button .l_content {
+    color: hsl(31, 77%, 52%);
+    font-family: Lexend Deca;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .left_box .left_button .l_content {
+      font-size: 15px;
+    }
+  
+  }
+  
+  /* Middle box styling */
+  
+  .middle_box {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .middle_box {
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+  }
+  
+  .middle_box h2 {
+    color: hsl(0, 0%, 95%);
+    margin-top: 15px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+  }
+  
+  .middle_box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+    padding-bottom: 100px;
+    line-height: 20px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .middle_box p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  
+  }
+  
+  .middle_box .middle_button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+  }
+  
+  .middle_box .middle_button .m_content {
+    color: hsl(184, 100%, 22%);
+    font-weight: bold;
+    font-family: Lexend Deca;
+    font-size: 10px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .middle_box .middle_button .m_content {
+      font-size: 15px;
+    }
+  
+  }
+  
+  /* Right box styling */
+  
+  .right_box {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .right_box {
+      margin-bottom: 15px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+  }
+  
+  .right_box h2 {
+    color: hsl(0, 0%, 95%);
+    margin-top: 15px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+  }
+  
+  .right_box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 10px;
+    padding-bottom: 100px;
+    line-height: 20px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .right_box p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  
+  }
+  
+  .right_box .right_button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+  }
+  
+  .right_button .r_content {
+    color: hsl(179, 100%, 13%);
+    font-family: Lexend Deca;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .right_button .r_content {
+      font-size: 15px;
+    }
+  
+  }
